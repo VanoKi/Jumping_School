@@ -1,0 +1,19 @@
+/* common */
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.wrap {
+  max-width: 1900;
+  border: solid gray 1px;
+}
+
+/* header */
+
+.logo {
+  background: url(assets/logo/logo-_1_.svg);
+  width: 300px;
+  height: 300px;
+}
