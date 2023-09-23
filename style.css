@@ -5,6 +5,15 @@ body {
   margin: 0 auto;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .wrap {
   max-width: 1900;
   border: solid gray 1px;
@@ -13,7 +22,8 @@ body {
 /* header */
 
 .logo {
-  background: url(assets/logo/logo-_1_.svg);
+  background: url(assets/logo/logo.svg);
   width: 300px;
   height: 300px;
 }
+
