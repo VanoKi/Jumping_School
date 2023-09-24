@@ -5,8 +5,15 @@ body {
   margin: 0 auto;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 li {
   list-style: none;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 a {
@@ -21,9 +28,21 @@ a {
 
 /* header */
 
-.logo {
+.header_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .logo {
   background: url(assets/logo/logo.svg);
   width: 300px;
   height: 300px;
-}
+} */
 
+.header_menu {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+    border: solid gray 1px;
+}
