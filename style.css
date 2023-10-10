@@ -43,7 +43,7 @@ a {
 .menu_wrap {
   display: flex;
   justify-content: space-between;
-  width: 55%;
+  width: 50%;
 }
 
 .header_menu {
@@ -53,3 +53,8 @@ a {
   align-items: center;
     border: solid gray 1px;
 }
+
+/*header end*/
+
+/*about*/
+
