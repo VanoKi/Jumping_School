@@ -63,7 +63,7 @@ a {
 
 /*header end*/
 
-/*about*/
+/*main photo*/
 
 .main_photo {
   display: flex;
@@ -85,7 +85,7 @@ a {
   font-size: 8rem;
 }
 
-/*end about*/
+/*end main photo*/
 
 /*first workout*/
 
@@ -124,7 +124,7 @@ a {
   border-radius: 5px;
   width: 40%;
   height: 40px;
-  font-size: 24px;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -132,3 +132,15 @@ a {
   background: #fff;
   color: var(--bg-dark);
 }
+
+/*end first workout*/
+
+/*about*/
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*end about*/
