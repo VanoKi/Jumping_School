@@ -61,6 +61,6 @@ a {
 .main_photo {
   margin: 0 auto;
   background: url(assets/about/photo_2023-10-10_12-00-26.jpg);
-  width: 1060px;
-  height: 824px;
+  /* width: 1060px;
+  height: 824px; */
 }
