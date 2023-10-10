@@ -59,9 +59,12 @@ a {
 /*about*/
 
 .main_photo {
+  display: flex;
   /* margin: 0 auto; */
   /* background: url(assets/about/photo_2023-10-10_12-00-26.jpg) center no-repeat; */
-  background-image: url(assets/about/photo_2023-10-10_12-00-26.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+                                    rgba(0, 0, 0, 0.2)),
+                    url(assets/about/photo_2023-10-10_12-00-26.jpg);
   background-size: cover;
   background-position: center;
   /* width: 1060px;*/
@@ -69,3 +72,19 @@ a {
   height: 824px;
 }
 
+/* .main_photo::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* opacity: 0.6; */
+  /*background-color: rgba(0, 0, 0, .5);
+} */
+
+.main_title {
+  margin: auto;
+  color: aliceblue;
+  font-size: 8rem;
+}
+
+/*first train*/
