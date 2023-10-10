@@ -148,4 +148,8 @@ p {
   align-items: center;
 }
 
+.text_about {
+  text-align: justify;
+}
+
 /*end about*/
