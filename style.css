@@ -10,12 +10,12 @@ body {
   margin: 0 auto;
 }
 
-ul {
+header ul {
   list-style-type: none;
   padding: 0;
 }
 
-li {
+header li {
   list-style: none;
   display: inline-block;
   margin-right: 10px;
