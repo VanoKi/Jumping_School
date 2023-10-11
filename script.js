@@ -6,6 +6,7 @@ let imageArray = [
 
 window.number = '0'
 let imageCount = imageArray.length
+
 function image(num){
   if (num == 1) {
     if (number < imageCount - 1) {
@@ -38,4 +39,10 @@ function btn_noshow() {
   document.getElementById('right').style.display = 'none'
 }
 
-document.write('<img id="images" src="' + imageArray[0] +'">');
+// document.write('<img id="images" src="' + imageArray[0] +'">');
+
+const photoWrap = document.querySelector('.photo_wrap')
+      img = document.createElement('img')
+img.src = imageArray[0]
+img.id = 'images'
+photoWrap.appendChild(img)
