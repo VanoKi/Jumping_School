@@ -3,6 +3,7 @@
 :root {
   --bg-dark: #96B565;
   --font-color: aliceblue;
+  --temp-border: solid gray 1px
 }
 
 body {
@@ -26,15 +27,15 @@ a {
   color: inherit;
 }
 
-p {
+/* p {
   margin: 0;
   padding: 0;
-}
+} */
 
 .wrap {
   margin: 0 auto;
   max-width: 98%;
-  border: solid gray 1px;
+  border: var(--temp-border);
 }
 
 /* header */
@@ -63,7 +64,7 @@ p {
   flex-direction: column;
   align-self: center;
   align-items: center;
-    border: solid gray 1px;
+    border: var(--temp-border);
 }
 
 /*header end*/
