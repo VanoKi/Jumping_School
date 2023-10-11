@@ -149,7 +149,13 @@ p {
 }
 
 .text_about {
+  width: 70%;
+  padding: 0;
   text-align: justify;
+}
+
+.text_about li {
+  list-style: none;
 }
 
 /*end about*/
