@@ -12,14 +12,14 @@ function image(num){
     if (number < imageCount - 1) {
       number++
       document.getElementById('images').src = imageArray[number];
-      document.getElementById('num_img').innerHTML = number + 1 +
+      document.getElementById('num_img').innerHTML = number + 1 + `/`
        '' + imageCount;
     }
   } else {
     if (number > 0) {
       number--
       document.getElementById('images').src = imageArray[number];
-      document.getElementById('num_img').innerHTML = number + 1 +
+      document.getElementById('num_img').innerHTML = number + 1 + `/`
        '' + imageCount;
     }
   }

@@ -137,6 +137,7 @@ a {
 .btn:hover {
   background: #fff;
   color: var(--bg-dark);
+  border-radius: var(--temp-border);
 }
 
 /*end first workout*/
@@ -169,6 +170,11 @@ a {
   align-items: center;
   justify-content: space-around;
   width: 70%;
+}
+
+#images {
+  width: 752px;
+  height: auto;
 }
 
 .left_right {
