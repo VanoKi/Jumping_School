@@ -182,3 +182,13 @@ a {
 }
 
 /*end slider*/
+
+/*instructors*/
+
+.instructors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*end instructors*/
