@@ -12,15 +12,15 @@ function image(num){
     if (number < imageCount - 1) {
       number++
       document.getElementById('images').src = imageArray[number];
-      document.getElementById('num_img').innerHTML = number + 1 + `/`
-       '' + imageCount;
+      // document.getElementById('num_img').innerHTML = number + 1 + `/`
+      //  '' + imageCount;
     }
   } else {
     if (number > 0) {
       number--
       document.getElementById('images').src = imageArray[number];
-      document.getElementById('num_img').innerHTML = number + 1 + `/`
-       '' + imageCount;
+      // document.getElementById('num_img').innerHTML = number + 1 + `/`
+      //  '' + imageCount;
     }
   }
 }
@@ -39,7 +39,7 @@ function btn_noshow() {
   document.getElementById('right').style.display = 'none'
 }
 
-// document.write('<img id="images" src="' + imageArray[0] +'">');
+// // document.write('<img id="images" src="' + imageArray[0] +'">');
 
 const photoWrap = document.querySelector('.photo_wrap')
       img = document.createElement('img')
