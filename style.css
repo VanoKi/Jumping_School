@@ -175,6 +175,7 @@ a {
 #images {
   width: 752px;
   height: auto;
+  border-radius: 5px;
 }
 
 .left_right {
@@ -189,6 +190,36 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.instructors ul {
+  padding-left: 0;
+}
+
+.instructors li {
+  list-style: none;
+}
+
+.slider__instructors {
+  width: 98%;
+}
+
+.instr_wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 83%;
+}
+
+.instructors_text {
+  width: 45%;
+}
+
+.images {
+  width: 752px;
+  height: auto;
+  border-radius: 5px;
 }
 
 /*end instructors*/
