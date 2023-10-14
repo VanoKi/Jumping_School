@@ -223,3 +223,33 @@ a {
 }
 
 /*end instructors*/
+
+/*contacts*/
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts ul {
+  padding-left: 0;
+}
+
+.contacts li {
+  list-style-type: none;
+}
+
+.icons_contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+/*end contacts*/
