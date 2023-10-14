@@ -252,4 +252,10 @@ a {
   height: 50px;
 }
 
+.maps_wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+}
 /*end contacts*/
