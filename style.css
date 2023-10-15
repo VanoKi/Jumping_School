@@ -30,6 +30,8 @@ a {
 header {
   position: sticky;
   top: 0;
+  background-color: var(--bg-dark);
+  color: var(--font-color);
 }
 
 /* p {
@@ -48,8 +50,6 @@ header {
 .header_section {
   display: flex;
   justify-content: space-between;
-  background-color: var(--bg-dark);
-  color: var(--font-color);
 }
 
 /* .logo {
