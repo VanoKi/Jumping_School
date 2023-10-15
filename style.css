@@ -267,13 +267,17 @@ header {
 
 /*footer*/
 
-.footer {
+.footer_wrap {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
   padding-top: 20px;
+}
+
+.footer {
+  width: 100%;
   background: var(--bg-dark);
   color: #fff;
 }
