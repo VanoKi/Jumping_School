@@ -52,6 +52,10 @@ header {
   justify-content: space-between;
 }
 
+.header_logo {
+  padding: 10px;
+}
+
 /* .logo {
   background: url(assets/logo/logo.svg);
   width: 300px;
