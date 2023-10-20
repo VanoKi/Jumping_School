@@ -31,7 +31,14 @@ a {
 header {
   position: sticky;
   top: 0;
-  background-color: var(--bg-dark);
+  /* background-color: #96B565; */
+  background: linear-gradient(rgba(150, 183, 97, 0.7),
+                                    rgba(150, 183, 97, 0.9));
+  /*background-image: linear-gradient(rgba(150, 183, 97, 0.7),
+                                    rgba(150, 183, 97, 0.9)),
+                                    url(assets/about/photo_2023-10-10_12-00-26.jpg); */
+  /* background-size: cover;
+  background-position: 50% 10%; */
   color: var(--font-color);
 }
 
@@ -90,16 +97,17 @@ header {
                                     rgba(0, 0, 0, 0.2)),
                     url(assets/about/photo_2023-10-10_12-00-26.jpg);
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
+  background-position: 50% 55%;
   /* width: 1060px;*/
   /* width: 100%; */
-  height: 824px;
+  height: 624px;
 }
 
 .main_title {
   margin: auto;
   color: var(--font-color);
-  font-size: 7rem;
+  font-size: 6rem;
 }
 
 .first_workout {
