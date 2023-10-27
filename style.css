@@ -85,6 +85,10 @@ header {
   font-weight: 700;
 }
 
+.header_menu_last {
+  margin-right: 10px;
+}
+
 /*header end*/
 
 /*main photo, first workout*/
