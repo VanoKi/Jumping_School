@@ -81,7 +81,8 @@ header {
   flex-direction: column;
   align-self: center;
   align-items: center;
-    border: var(--temp-border);
+  border: var(--temp-border);
+  font-weight: 700;
 }
 
 /*header end*/
